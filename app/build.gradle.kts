@@ -62,6 +62,7 @@ dependencies {
     implementation("com.squareup.okhttp3:mockwebserver3:5.3.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
     ksp(libs.androidx.room.compiler)
+    testImplementation(libs.json)
     testImplementation(libs.junit.jupiter)
     testImplementation(libs.kotest.runner.junit5)
     testImplementation("org.assertj:assertj-core:3.22.0")
